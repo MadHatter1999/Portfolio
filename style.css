@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #18bc9c;
+  --light-color: #ecf0f1;
+  --dark-color: #34495e;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.navbar {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+.jumbotron {
+  background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+  color: var(--light-color);
+  margin-bottom: 2rem;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.social-icon {
+  font-size: 48px;
+  color: var(--dark-color);
+  margin-right: 2%;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: var(--secondary-color);
+}
